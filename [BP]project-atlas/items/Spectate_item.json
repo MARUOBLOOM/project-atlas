@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "pvp:spectate_item",
+            /*クリエイティブのアイテム欄に表示する設定*/
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            /*1スタックが何個かの設定(デフォルトは64)*/
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            /*アクションバーに表示されるアイテム名の設定(langファイルでも設定可)*/
+            "minecraft:display_name": {
+                "value": "§l§7プレイヤー観戦"
+            },
+            /*アイテムのアイコン設定(RPのitem_texture.jsonでの設定要)*/
+            "minecraft:icon": {
+                "textures": {
+                    "default": "spectator"
+                }
+            }
+        }
+    }
+}

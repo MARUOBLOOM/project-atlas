@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "pvp:setting_admin",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:stacked_by_data": true,
+            "minecraft:display_name": {
+                "value": "§l各種設定§4(管理者用)"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "setting_admin"
+                }
+            }
+        }
+    }
+}

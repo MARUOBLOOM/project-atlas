@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "[ResourcePack]Project-Atlas",
+        "description": "",
+        "uuid": "9f052992-408e-487b-9b5f-4fe0123ec399",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "75fc6aed-7261-4b41-844f-1c10331e6986",
+            "version": [1, 0, 0]
+        }
+    ],
+        "dependencies": [
+        {
+            "uuid": "cdc371e5-797f-4947-a65e-47a02e83a9d8",
+            "version": [ 1,0,0 ]
+        }
+    ]
+}

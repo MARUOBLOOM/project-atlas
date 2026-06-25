@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "pvp:predator_ult",
+            /*クリエイティブのアイテム欄に表示する設定*/
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            /*1スタックが何個かの設定(デフォルトは64)*/
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:food": {
+                "can_always_eat": true,
+                "nutrition": 1,
+                "saturation_modifier": 1
+            },
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.85,
+                "use_duration": 1
+            },
+            /*アクションバーに表示されるアイテム名の設定(langファイルでも設定可)*/
+            "minecraft:display_name": {
+                "value": "§l§4捕食された魂"
+            },
+            /*アイテムのアイコン設定(RPのitem_texture.jsonでの設定要)*/
+            "minecraft:icon": {
+                "textures": {
+                    "default": "Pradator_Ult"
+                }
+            },
+            "minecraft:durability": {
+                "damage_chance": {
+                    "min": 1,
+                    "max": 1
+                },
+                "max_durability": 1
+            }
+        }
+    }
+}

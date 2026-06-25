@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "pvp:ban_tool",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:stacked_by_data": true,
+            "minecraft:display_name": {
+                "value": "ロールBAN ハンマー"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ban_tool"
+                }
+            },
+            "minecraft:hand_equipped": true
+        }
+    }
+}
